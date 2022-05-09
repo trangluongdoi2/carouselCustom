@@ -1,0 +1,30 @@
+.carousel {
+  width: 300px;
+  overflow-x: scroll;
+  margin: auto;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* .carouselSlide {
+  transform: translateX(-300px);
+  transition: 0.4s ease-in-out;
+} */
+
+.carouselSlideNext {
+  transform: translateX(-300px);
+  transition: 0.4s ease-in-out;
+}
+
+.carouselSlidePrev {
+  transform: translateX(300px);
+  transition: 0.4s ease-in-out;
+}

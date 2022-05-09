@@ -1,0 +1,23 @@
+.container {
+  background-color: green;
+  display: flex;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.child1 {
+  margin: 10px;
+  /* background-color: yellow; */
+  color: white;
+}
+
+.child2 {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
